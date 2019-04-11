@@ -1,4 +1,1 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<app-drag-drop-dual-list [availables]="availableItems" [selects]="selectedItems" valueField="id" textField="name" (itemsMoved)="onItemsMoved($event)"></app-drag-drop-dual-list>
