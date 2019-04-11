@@ -56,13 +56,6 @@
   }
   .dualListLeft, .dualListRight {
     display: flex;
-    max-width: 50%;
-  }
-  .dualListLeft {
-    justify-content: flex-end;
-  }
-  .dualListRight {
-    justify-content: flex-start;
   }
   .drag-drop-box {
     padding: 10px;
